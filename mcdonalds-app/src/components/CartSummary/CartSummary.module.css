@@ -1,0 +1,58 @@
+.summary {
+  background-color: #fff;
+  border: 2px solid #ffc72c;
+  border-radius: 8px;
+  padding: 20px;
+  position: sticky;
+  bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  margin-bottom: 16px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.label {
+  font-weight: 600;
+  color: #333;
+}
+
+.value {
+  color: #666;
+}
+
+.totalValue {
+  font-size: 20px;
+  font-weight: 700;
+  color: #d32f2f;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffc72c;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #ffb81c;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666;
+}
